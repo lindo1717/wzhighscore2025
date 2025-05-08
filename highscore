@@ -7,7 +7,7 @@
     <script>
         // Fetch data from the Google Visualization API
         function fetchHighScores() {
-            const queryURL = 'https://docs.google.com/spreadsheets/d/1cRnAf3hxh2fnwAdBp99_hEWgQKtUx57TSLkYzCZqmzA/gviz/tq?tq=SELECT%20A,%20B,%20C';
+            const queryURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9S8tTpJZX7ZksqATvW7mFxHPPQHNbJFpcL6cyD9NB3y3qHsEBfZbP4N79TsLXOo-JUjsEMauVqSe4/pubhtml?gid=155958046&single=true';
 
             fetch(queryURL)
                 .then((response) => response.text())
